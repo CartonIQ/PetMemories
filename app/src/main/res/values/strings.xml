@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">PetMemories</string>
+    <string name="tagline">Track their age. Save their memories.</string>
+
+    <!-- Navigation -->
+    <string name="nav_pets">Pets</string>
+    <string name="nav_memories">Memories</string>
+    <string name="nav_health">Health</string>
+    <string name="nav_expenses">Expenses</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Pets / Home Screen -->
+    <string name="title_pets">My Pets</string>
+    <string name="daily_fact_title">Daily Pet Fact</string>
+    <string name="add_pet">Add Pet</string>
+    <string name="no_pets_yet">No pets added yet. Tap + to add your first furry companion!</string>
+    <string name="hint_pet_name">Pet Name (e.g. Luna)</string>
+    <string name="hint_pet_breed">Breed (e.g. Golden Retriever)</string>
+    <string name="hint_pet_type">Pet Type (Dog, Cat, etc.)</string>
+    <string name="hint_pet_birthday">Birthday (YYYY-MM-DD)</string>
+    <string name="hint_pet_microchip">Microchip Number</string>
+    <string name="hint_pet_weight">Weight (kg)</string>
+    <string name="btn_select_photo">Select Photo</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="pet_added_success">Pet added successfully</string>
+    <string name="fill_required_fields">Please enter pet name and birthday</string>
+
+    <!-- Pet Detail Screen -->
+    <string name="title_pet_detail">Pet Profile</string>
+    <string name="label_age">Age</string>
+    <string name="label_next_birthday">Next Birthday</string>
+    <string name="label_breed">Breed</string>
+    <string name="label_microchip">Microchip #</string>
+    <string name="label_current_weight">Current Weight</string>
+    <string name="btn_generate_passport">Generate Pet Passport</string>
+    <string name="btn_lost_pet_poster">Lost Pet Poster</string>
+    <string name="btn_share_profile">Share Profile</string>
+    <string name="title_vaccine_reminders">Vaccine Reminders</string>
+    <string name="add_vaccine">Add Vaccine Reminder</string>
+    <string name="no_vaccines_yet">No vaccine reminders recorded yet.</string>
+    <string name="hint_vaccine_name">Vaccine Name (e.g. Rabies, DHPP)</string>
+    <string name="hint_due_date">Due Date (YYYY-MM-DD)</string>
+    <string name="vaccine_scheduled">Vaccine reminder scheduled</string>
+
+    <!-- Memories Screen -->
+    <string name="title_memories">Memories</string>
+    <string name="add_memory">Add Memory</string>
+    <string name="hint_memory_caption">Write a note or story…</string>
+    <string name="hint_memory_date">Date (YYYY-MM-DD)</string>
+    <string name="no_memories_yet">No memories recorded yet. Capture their best moments!</string>
+    <string name="sponsored_badge">Sponsored</string>
+
+    <!-- Health Screen -->
+    <string name="title_health">Health &amp; Wellness</string>
+    <string name="tab_weight">Weight Tracker</string>
+    <string name="tab_meds">Medications</string>
+    <string name="add_weight">Log Weight</string>
+    <string name="add_medication">Add Medication</string>
+    <string name="no_weights_yet">Log weight regularly to view trends over time.</string>
+    <string name="no_meds_yet">No active medications or reminders.</string>
+    <string name="hint_weight_value">Weight (kg)</string>
+    <string name="hint_med_name">Medication Name</string>
+    <string name="hint_med_dosage">Dosage (e.g. 1 tablet, 5ml)</string>
+    <string name="hint_med_time">Reminder Time (HH:mm)</string>
+
+    <!-- Expenses Screen -->
+    <string name="title_expenses">Pet Expenses</string>
+    <string name="add_expense">Log Expense</string>
+    <string name="monthly_total_label">This Month\'s Total</string>
+    <string name="no_expenses_yet">No expenses logged yet. Track food, vet visits, and toys!</string>
+    <string name="category_food">Food &amp; Treats</string>
+    <string name="category_vet">Veterinary Care</string>
+    <string name="category_toys">Toys &amp; Gear</string>
+    <string name="category_grooming">Grooming</string>
+    <string name="category_other">Other</string>
+    <string name="hint_expense_amount">Amount</string>
+    <string name="hint_expense_note">Description (optional)</string>
+
+    <!-- Settings Screen -->
+    <string name="title_settings">Settings &amp; Backup</string>
+    <string name="section_vet">Emergency Vet Contact</string>
+    <string name="btn_call_vet">Call Primary Vet</string>
+    <string name="btn_set_vet">Set Vet Phone</string>
+    <string name="hint_vet_name">Clinic / Vet Name</string>
+    <string name="hint_vet_phone">Phone Number</string>
+    <string name="section_data">Data Backup &amp; Restore</string>
+    <string name="btn_export_json">Export Data (JSON Backup)</string>
+    <string name="btn_import_json">Import Data (Restore JSON)</string>
+    <string name="section_general">About &amp; Feedback</string>
+    <string name="btn_share_app">Share App with Friends</string>
+    <string name="btn_rate_us">Rate Us on Google Play</string>
+    <string name="btn_privacy_policy">Privacy Policy</string>
+    <string name="app_version_label">Version 1.0.0 (Offline &amp; Secure)</string>
+    <string name="backup_success">Backup exported successfully</string>
+    <string name="restore_success">Data restored successfully</string>
+    <string name="restore_error">Failed to parse JSON backup file</string>
+
+    <!-- Poster / Passport / Share -->
+    <string name="pet_passport_title">OFFICIAL PET PASSPORT</string>
+    <string name="lost_pet_title">REWARD! LOST PET</string>
+    <string name="lost_pet_subtitle">PLEASE HELP US FIND OUR FAMILY MEMBER</string>
+    <string name="contact_owner_prefix">If seen, please call immediately: </string>
+    <string name="share_profile_template">Meet %1$s! %2$s, age: %3$s. Loved with PetMemories.</string>
+</resources>

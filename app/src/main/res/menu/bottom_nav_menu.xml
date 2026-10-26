@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_pets"
+        android:icon="@drawable/ic_pets"
+        android:title="@string/nav_pets" />
+    <item
+        android:id="@+id/navigation_memories"
+        android:icon="@drawable/ic_memories"
+        android:title="@string/nav_memories" />
+    <item
+        android:id="@+id/navigation_health"
+        android:icon="@drawable/ic_health"
+        android:title="@string/nav_health" />
+    <item
+        android:id="@+id/navigation_expenses"
+        android:icon="@drawable/ic_expense"
+        android:title="@string/nav_expenses" />
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/nav_settings" />
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Warm & Friendly Coral Palette -->
+    <color name="primary">#FF7A59</color>
+    <color name="primary_variant">#E65E3D</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#FFE3DA</color>
+    <color name="on_primary_container">#3D1206</color>
+
+    <!-- Secondary Peach / Gold Accent -->
+    <color name="secondary">#FFA726</color>
+    <color name="secondary_container">#FFECCF</color>
+    <color name="on_secondary_container">#331E00</color>
+
+    <!-- Warm Cream Background (Light Mode) -->
+    <color name="background">#FFF9F5</color>
+    <color name="on_background">#2B2320</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_surface">#2B2320</color>
+    <color name="surface_variant">#F4ECE7</color>
+    <color name="on_surface_variant">#685E5A</color>
+    <color name="outline">#E2D5CF</color>
+
+    <!-- Functional Colors -->
+    <color name="lost_pet_red">#D32F2F</color>
+    <color name="passport_navy">#1A365D</color>
+    <color name="success_green">#2E7D32</color>
+    <color name="card_stroke">#F0E5DF</color>
+</resources>

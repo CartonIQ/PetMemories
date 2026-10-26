@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_pets">
+
+    <fragment
+        android:id="@+id/navigation_pets"
+        android:name="com.pet.memories.PetsFragment"
+        android:label="@string/nav_pets"
+        tools:layout="@layout/fragment_pets">
+        <action
+            android:id="@+id/action_pets_to_petDetail"
+            app:destination="@id/petDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_memories"
+        android:name="com.pet.memories.MemoriesFragment"
+        android:label="@string/nav_memories"
+        tools:layout="@layout/fragment_memories" />
+
+    <fragment
+        android:id="@+id/navigation_health"
+        android:name="com.pet.memories.HealthFragment"
+        android:label="@string/nav_health"
+        tools:layout="@layout/fragment_health" />
+
+    <fragment
+        android:id="@+id/navigation_expenses"
+        android:name="com.pet.memories.ExpensesFragment"
+        android:label="@string/nav_expenses"
+        tools:layout="@layout/fragment_expenses" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.pet.memories.SettingsFragment"
+        android:label="@string/nav_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/petDetailFragment"
+        android:name="com.pet.memories.PetDetailFragment"
+        android:label="@string/title_pet_detail"
+        tools:layout="@layout/fragment_pet_detail">
+        <argument
+            android:name="petId"
+            android:defaultValue="0L"
+            app:argType="long" />
+    </fragment>
+</navigation>

@@ -1,0 +1,39 @@
+<resources>
+    <!-- Dark Charcoal Theme (#1E1E1E) -->
+    <style name="Theme.PetMemories" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#FF8F73</item>
+        <item name="colorOnPrimary">#4A1709</item>
+        <item name="colorPrimaryContainer">#732915</item>
+        <item name="colorOnPrimaryContainer">#FFE3DA</item>
+        <item name="colorSecondary">#FFB74D</item>
+
+        <item name="android:colorBackground">#1E1E1E</item>
+        <item name="colorSurface">#2A2A2A</item>
+        <item name="colorOnSurface">#EAE1DD</item>
+        <item name="colorSurfaceVariant">#363433</item>
+        <item name="colorOnSurfaceVariant">#CDC4BE</item>
+        <item name="colorOutline">#4A4543</item>
+
+        <item name="android:statusBarColor">#1E1E1E</item>
+        <item name="android:navigationBarColor">#2A2A2A</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+
+        <item name="shapeAppearanceCornerMedium">@style/ShapeAppearance.PetMemories.LargeCorner</item>
+        <item name="shapeAppearanceCornerLarge">@style/ShapeAppearance.PetMemories.ExtraLargeCorner</item>
+    </style>
+
+    <style name="Theme.PetMemories.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#1E1E1E</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_pets</item>
+        <item name="postSplashScreenTheme">@style/Theme.PetMemories</item>
+    </style>
+
+    <style name="ShapeAppearance.PetMemories.LargeCorner" parent="ShapeAppearance.Material3.Corner.Medium">
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <style name="ShapeAppearance.PetMemories.ExtraLargeCorner" parent="ShapeAppearance.Material3.Corner.Large">
+        <item name="cornerSize">28dp</item>
+    </style>
+</resources>
